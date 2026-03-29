@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Seja bem-vindo ao Jogo da adivinhação</h1>
+        <h2>Instruções:</h2>
+        <p>Vamos lá. Neste jogo você precisará adivinhar um número secreto de 1 a 100 com apenas 10 chances para chutar e acertar EXATAMENTE o número sorteado. Será que você possui essa capacidade? Vamos ver!</p>
+    </header>
+
+    <main>
+        <p id="tentativasRestantes">Vidas restantes:</p>
+        <input type="number" placeholder="Digite um número de 1 a 100">
+        <p id="dica">Dica:</p>
+        <p id="numerosChutados">Números que você já chutou:</p>
+
+        <button id="chutar">Chutar</button>
+        <button id="reiniciar" style="display: none;">Jogar novamente</button>
+        
+    </main>
+</body>
+</html>
