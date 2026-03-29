@@ -42,7 +42,7 @@ body::before {
 /* Container principal */
 main {
      position: relative;
-    z-index: 1; /* garante que o card fique acima das scanlines */
+    z-index: 1;
     background-color: rgba(43, 43, 64, 0.85);
     padding: 30px;
     border-radius: 12px;
@@ -103,19 +103,19 @@ button {
 #chutar {
     background: linear-gradient(145deg, #00c853, #009624);
     box-shadow: 
-        0 4px #006400,               /* sombra sólida discreta */
-        0 0 6px rgba(0, 255, 100, 0.25); /* neon suave */
+        0 4px #006400,
+        0 0 6px rgba(0, 255, 100, 0.25);
 }
 
 #chutar:hover {
-    filter: brightness(1.08);        /* leve aumento no hover */
+    filter: brightness(1.08);
 }
 
 #chutar:active {
     transform: translateY(3px);
     box-shadow: 
         0 2px #006400,
-        0 0 3px rgba(0, 255, 100, 0.15); /* neon ainda mais suave ao clicar */
+        0 0 3px rgba(0, 255, 100, 0.15);
 }
 
 /* Botão reiniciar com neon suave */
